@@ -1,6 +1,5 @@
-
 "---------------------- Themes and color --------------------
-colorscheme atom-dark					" My Vim GUI color scheme
+colorscheme atom-dark				" My Vim GUI color scheme
 
 " Some teeak of the atom-dark theme
 " Fg and bg color
@@ -22,6 +21,13 @@ hi vertsplit        guifg=bg        guibg=bg
 
 
 
-"---------------------- UI Tweaks --------------------
-set vb t_vb=						" Disable bell after GUI started
+"---------------------- UI tweak --------------------
+set guifont=Fira_Code:h18           " Monospaed font with programming ligatures
 
+set guioptions-=l                   " Hide left scroll bar
+set guioptions-=L                   " Hide left scroll bar in splitted window
+set guioptions-=r                   " Hide right scroll bar
+set guioptions-=R                   " Hide right scroll bar in splitted window
+set guioptions-=e                   " Hide the native tab bar
+set macligatures                    " Display programming ligatures
+set vb t_vb=						" Disable bell after GUI started
