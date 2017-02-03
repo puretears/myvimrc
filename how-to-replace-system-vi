@@ -1,0 +1,6 @@
+Add the following lines to your shell config (.bash_profile, .zshrc, etc):
+
+alias vi="/Applications/MacVim.app/Contents/MacOS/Vim"
+alias vim=vi
+alias mvim="vi -g"
+
