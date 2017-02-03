@@ -1,4 +1,5 @@
 set nocompatible					" Make vim behave more useful way
+so ~/.vim/plugins.vim
 
 
 
